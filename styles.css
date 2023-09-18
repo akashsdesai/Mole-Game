@@ -1,0 +1,51 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+  color: white;
+}
+.main{
+  display: flex;
+  flex-direction: row;
+  width:600px;
+  justify-content: space-evenly;
+  background-image: url(grass.jpg);
+  background-size:cover ;
+  border-radius: 25px;
+}
+.grid{
+  width:406px;
+  height:406px;
+  display: flex;
+  flex-wrap:wrap;
+  
+}
+.data{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.square{
+  height:134px;
+  width:133px;
+  border-width:0px;
+  transition: all 0.5s;
+} 
+
+.mole{
+  background-image: url(mole.png);
+  background-size: cover;
+  
+}
+
+button{
+  background-color: goldenrod;
+  color:white;
+  border: none;
+  padding:10px 15px;
+  border-radius: 25px;
+  margin: 10px;
+  font-size: 18px;
+  
+}
